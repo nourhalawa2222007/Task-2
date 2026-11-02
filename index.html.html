@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لغة جافا سكريبت والتفاعل - تقرير البحث</title>
+    <style>
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            line-height: 1.8;
+            background-color: #f9f9f9;
+            color: #333;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            border-right: 4px solid #3498db;
+            padding-right: 10px;
+        }
+        .student-info {
+            text-align: center;
+            background: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #bdc3c7;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        ul {
+            background: #fdfdfd;
+            padding: 20px 40px;
+            border: 1px solid #e1e1e1;
+            border-radius: 5px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- عنوان البحث وبيانات الطالب -->
+    <h1>لغة جافا سكريبت (JavaScript) والتفاعل: كيف تحول هذه اللغة صفحات الويب من مجرد نصوص ثابتة إلى صفحات تفاعلية تتجاوب مع نقرات المستخدم</h1>
+    
+    <div class="student-info">
+        <p><strong>الإسم:</strong> نور مختار سعد حسين حلاوة &nbsp;&nbsp;|&nbsp;&nbsp; <strong>الرقم الجامعي:</strong> 2503555</p>
+    </div>
+
+    <!-- المقدمة -->
+    <h2>المقدمة</h2>
+    <p>
+        <strong>جافا سكريبت (JavaScript)</strong> هي اللغة التي تجعل صفحة الويب تتجاوب مع المستخدم بدل أن تبقى مجرد نصوص وصور ثابتة. ظهرت عام 1995 داخل متصفح نتسكيب (Netscape) على يد المبرمج برندان آيك (Brendan Eich)، ثم أصبحت معياراً دولياً يُعرف باسم ECMAScript، وتدعمه اليوم جميع المتصفحات الحديثة.
+    </p>
+    <p>
+        الفكرة العامة أن الصفحة تتكون من ثلاث طبقات: <strong>HTML</strong> للمحتوى، و<strong>CSS</strong> للتنسيق، و<strong>JavaScript</strong> للسلوك. وعند فتح الصفحة ينفّذ المتصفح شيفرة جافا سكريبت على جهاز المستخدم نفسه، فتستطيع الصفحة تغيير محتواها وشكلها لحظياً عند النقر أو الكتابة أو التمرير، دون إعادة تحميلها من الخادم.
+    </p>
+    <p>
+        وتكمن أهمية الموضوع في أن معظم المواقع الحديثة تعتمد على هذه اللغة: القوائم المنسدلة، والتحقق من النماذج، وعربات التسوق، والخرائط، ومنصات التواصل.
+    </p>
+
+    <!-- إضافة الصورة -->
+    <div class="image-container">
+        <img src="tech.png" alt="صورة تعبيرية عن لغة جافا سكريبت وتفاعل المستخدم مع صفحات الويب">
+        <p><em>صورة توضيحية لبيئة عمل لغة الجافا سكريبت والتفاعل الرقمي</em></p>
+    </div>
+
+    <!-- عرض الموضوع -->
+    <h2>عرض الموضوع</h2>
+    <p>تحوّل جافا سكريبت الصفحة إلى صفحة تفاعلية بأن تنتظر حدثاً من المستخدم، ثم تصل إلى عناصر الصفحة وتعدلها.</p>
+
+    <h3>أولاً: الصفحة الثابتة والصفحة التفاعلية</h3>
+    <p>الصفحة الثابتة مكتوبة بـ HTML و CSS فقط، فتعرض ما كتب فيها ولا تتغير إلا بتعديل الملف أو بطلب صفحة جديدة من الخادم. أما الصفحة التفاعلية فتضم شيفرة جافا سكريبت تعمل داخل المتصفح وتستجيب فوراً لما يفعله المستخدم.</p>
+
+    <!-- الجدول المطلوب -->
+    <table>
+        <tr>
+            <th>وجه المقارنة</th>
+            <th>الصفحة الثابتة</th>
+            <th>الصفحة التفاعلية</th>
+        </tr>
+        <tr>
+            <td><strong>التقنيات المستخدمة</strong></td>
+            <td>HTML و CSS</td>
+            <td>HTML و CSS و JavaScript</td>
+        </tr>
+        <tr>
+            <td><strong>الاستجابة للنقر والكتابة</strong></td>
+            <td>لا توجد (عدا الروابط التقليدية)</td>
+            <td>فورية وسريعة</td>
+        </tr>
+        <tr>
+            <td><strong>تغيير المحتوى</strong></td>
+            <td>بإعادة تحميل الصفحة بالكامل</td>
+            <td>مباشرة دون إعادة تحميل</td>
+        </tr>
+        <tr>
+            <td><strong>مثال توضيحي</strong></td>
+            <td>صفحة تعريفية بنصوص وصور ثابتة</td>
+            <td>نموذج تسجيل يتحقق من البيانات أثناء الكتابة</td>
+        </tr>
+    </table>
+
+    <h3>ثانياً: الأفكار الأساسية</h3>
+    <p>تقوم التفاعلية على ثلاثة مفاهيم رئيسية:</p>
+    <ul>
+        <li><strong>شجرة (DOM - Document Object Model):</strong> تمثيل يبنيه المتصفح للصفحة على شكل شجرة من العناصر تتيح لجافا سكريبت قراءة أي عنصر وتغيير نصه وتنسيقه وإضافة عناصر جديدة أو حذفها.</li>
+        <li><strong>الأحداث (Events):</strong> إشارات يرسلها المتصفح عند فعل المستخدم، مثل <code>click</code> عند النقر، و<code>input</code> عند الكتابة، و<code>submit</code> عند إرسال النموذج.</li>
+        <li><strong>مستمع الحدث (Event Listener):</strong> دالة تُربط بعنصر معين وتنفذ عند وقوع حدث محدد، وتُسجل بالأمر <code>addEventListener</code>.</li>
+    </ul>
+
+    <h3>ثالثاً: ما بعد الأمثلة البسيطة</h3>
+    <p>لا تقتصر التفاعلية على تغيير النصوص؛ تستطيع جافا سكريبت طلب بيانات جديدة من الخادم في الخلفية باستخدام الأمر <code>fetch</code> وعرضها دون إعادة تحميل الصفحة. ومن الملاحظات العملية الهامة:</p>
+    <ul>
+        <li>يُفضّل وضع الشيفرة في ملف خارجي مثل <code>script.js</code> وربطه بالوسم المناسب لتبقى الصفحة منظمة.</li>
+        <li>يجب التحقق من البيانات في الخادم أيضاً لحماية الموقع وعدم الاعتماد فقط على المتصفح.</li>
+        <li>يمكن اختبار الشيفرة وتتبع أخطائها من أدوات المطوّر (Developer Tools) بالضغط على زر <code>F12</code>.</li>
+    </ul>
+
+    <!-- المراجع والروابط التشعبية -->
+    <h2>المراجع والمصادر</h2>
+    <p>اعتمد التقرير على المصادر الرسمية والتعليمية التالية (تاريخ الاطلاع: 12 أكتوبر 2026)</p>
+    <ul>
+        <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model" target="_blank">
+                1. MDN Web Docs (Mozilla) - Document Object Model (DOM) وتمثيل الصفحة كشجرة من العناصر.
+            </a>
+        </li>
+        <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events" target="_blank">
+                2. MDN Web Docs (Mozilla) - Introduction to events ومفهوم الأحداث وطريقة ربط الدوال بها.
+            </a>
+        </li>
+        <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" target="_blank">
+                3. MDN Web Docs (Mozilla) - EventTarget: addEventListener() وشرح طريقة عمله.
+            </a>
+        </li>
+        <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event" target="_blank">
+                4. MDN Web Docs (Mozilla) - Event وأنواع الأحداث وكيف تنشأ من أفعال المستخدم.
+            </a>
+        </li>
+        <li>
+            <a href="https://javascript.info/introduction-browser-events" target="_blank">
+                5. مدخل عربي إلى JavaScript.info - النسخة العربية (Introduction to Events) لأحداث المتصفح ومعالجتها.
+            </a>
+        </li>
+        <li>
+            <a href="https://www.w3schools.com/js/js_history.asp" target="_blank">
+                6. W3Schools - JavaScript History (نشأة اللغة عام 1995 وتحولها إلى معيار ECMAScript).
+            </a>
+        </li>
+        <li>
+            <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank">
+                7. Ecma International / TC39 - ECMAScript Language Specification (المواصفة الرسمية للغة).
+            </a>
+        </li>
+    </ul>
+
+</body>
+</html>
